@@ -23,8 +23,8 @@ Flowchart
 graph TD
 A((start)) --> B{Input age}
 B --> C[/if age >= 18/]
-C --|Yes|--> D{You are eligible to vote.}
-C --|No|--> E{You are not eligible to vote.}
+C -- Yes --> D{You are eligible to vote.}
+C -- No --> E{You are not eligible to vote.}
 E --> F((end))
 D --> F((end))
 ```
