@@ -6,6 +6,7 @@ Write a program that asks the user to enter their age.
 
 Pseudocode
 
+```
 start
 input age
 if age >= 18
@@ -14,12 +15,15 @@ else
 You are not eligible to vote.
 endif
 end
+```
 
 Flowchart
 
+```mermaid
 graph TD
 A((start)) --> {Input age}
 B --> C[/if age >= 18/]
 C --Yes--> D{You are eligible to vote.}
 C --No--> D{You are not eligible to vote.}
 D --> E((end))
+```
