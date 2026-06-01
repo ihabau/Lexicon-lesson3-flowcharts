@@ -21,7 +21,7 @@ Flowchart
 
 ```mermaid
 graph TD
-A((start)) --> {Input age}
+A((start)) --> B{Input age}
 B --> C[/if age >= 18/]
 C --Yes--> D{You are eligible to vote.}
 C --No--> D{You are not eligible to vote.}
