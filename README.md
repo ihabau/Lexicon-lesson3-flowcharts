@@ -7,3 +7,4 @@ See our active [To-Do List](./Lecture-Exercises-Solutions.md) for upcoming featu
 
 to do list.
 [Excercise 1](./Exercise1.md)
+[Excercise 2](./Exercise2.md)

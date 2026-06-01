@@ -4,7 +4,7 @@ Write a program that asks the user to enter their age.
 - If the age is **less than 18**, display: "You are not eligible to vote."
 - End the program.
 
-Pseudocode
+**Pseudocode**
 
 ```
 start
@@ -17,7 +17,7 @@ endif
 end
 ```
 
-Flowchart
+**Flowchart**
 
 ```mermaid
 graph TD
