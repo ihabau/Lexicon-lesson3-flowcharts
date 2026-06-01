@@ -37,7 +37,7 @@ End
 ```mermaid
 graph TD
 S((Start)) --> input[/pt = park time/]
-input -->pt0{if pt <= 1} -- Yes --> res1{{result == 0}}
+input -->pt0{if pt < 1} -- Yes --> res1{{result == 0}}
 pt0 -- No --> pt1{if pt <= 3} -- Yes --> res2{{result == 50}}
 pt1 -- No --> pt2{pt > 3} --> pt3{if result > 250} -- No --> res3["result = (pt - 3) * 50 + 40"]
 pt3 -- Yes --> res4{{result == 250}}
