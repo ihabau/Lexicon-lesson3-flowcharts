@@ -1,4 +1,4 @@
-Write a program that asks the user to enter their age.
+### #Write a program that asks the user to enter their age
 
 - If the age is **18 or older**, display: "You are eligible to vote."
 - If the age is **less than 18**, display: "You are not eligible to vote."
@@ -23,8 +23,8 @@ end
 graph TD
 A((start)) --> B{Input age}
 B --> C[/if age >= 18/]
-C -- Yes --> D{You are eligible to vote.}
-C -- No --> E{You are not eligible to vote.}
+C -- Yes --> D[/You are eligible to vote./]
+C -- No --> E[/You are not eligible to vote./]
 E --> F((end))
 D --> F((end))
 ```

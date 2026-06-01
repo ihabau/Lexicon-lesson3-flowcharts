@@ -6,5 +6,13 @@ Porfolio.
 See our active [To-Do List](./Lecture-Exercises-Solutions.md) for upcoming features and task tracking.
 
 to do list.
-[Excercise 1](./Exercise1.md)
-[Excercise 2](./Exercise2.md)
+Exercise 1 [Excercise 1](./Exercise1.md)
+Exercise 2 [Excercise 2](./Exercise2.md)
+Exercise 3 [Excercise 3](./Exercise3.md)
+
+**Tips:**
+((Text)) is start/End
+\[/Text/\] is input/output
+{Text} is logic
+(Text( is storage
+\[Text\] is process Example changing variables or math operation.
