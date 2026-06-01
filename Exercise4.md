@@ -31,5 +31,5 @@ graph TD
 S((Start)) --> input[/input amount/]
 input --> ifdisc{input >= 5000} --> res1[input * 0,8] --> output[/res1/] --> E((End))
 input --> ifdisc2{input >= 2000 && input <= 4999} --> res2[input * 0,1] --> output[/res2/] --> E
-input --> else{input > 2000} --> output[/input/] --> E
+input --> else{input > 2000} --> output[/final price/] --> E
 ```
