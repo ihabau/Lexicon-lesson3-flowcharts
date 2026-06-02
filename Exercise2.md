@@ -30,7 +30,7 @@ End
 graph TD
 A((start)) --> B[/grade = Input: grade/]
 B --> C{if grade >= 90} -- Yes ---> D[/output: Grade A/] --> K((End))
-C -- No --> E{elseIf grade > 75 && grade < 89} -- Yes --> F[/output: Grade B/] --> K((End))
-E -- No --> G{elseIf grade > 50 && grade < 74} -- Yes --> H[/output: Grade C/] --> K((End))
-G -- No ---> I{else grade < 50} --> J[/output: Fail/] --> K((End))
+C -- No --> E{ if grade > 75 && grade < 89} -- Yes --> F[/output: Grade B/] --> K((End))
+E -- No --> G{ if grade > 50 && grade < 74} -- Yes --> H[/output: Grade C/] --> K((End))
+G -- No ---> J[/output: Fail/] --> K((End))
 ```
