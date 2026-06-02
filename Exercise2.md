@@ -28,9 +28,9 @@ End
 
 ```mermaid
 graph TD
-A((start)) --> B[/Input grade/]
-B --> C{if grade >= 90} --> D[/Grade A/] --> K((End))
-B --> E{elseIf grade > 75 && grade < 89} --> F[/Grade B/] --> K((End))
-B --> G{elseIf grade > 50 && grade < 74} --> H[/Grade C/] --> K((End))
-B --> I{else grade < 50} --> J[/Fail/] --> K((End))
+A((start)) --> B[/grade = Input: grade/]
+B --> C{if grade >= 90} --> D[/output: Grade A/] --> K((End))
+B --> E{elseIf grade > 75 && grade < 89} --> F[/output: Grade B/] --> K((End))
+B --> G{elseIf grade > 50 && grade < 74} --> H[/output: Grade C/] --> K((End))
+B --> I{else grade < 50} --> J[/output: Fail/] --> K((End))
 ```

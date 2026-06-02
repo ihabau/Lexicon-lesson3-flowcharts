@@ -28,8 +28,9 @@ End
 
 ```mermaid
 graph TD
-S((Start)) --> input[/input amount/]
-input --> ifdisc{input >= 5000} --> res1[input * 0,8] --> output[/res1/] --> E((End))
-input --> ifdisc2{input >= 2000 && input <= 4999} --> res2[input * 0,1] --> output[/res2/] --> E
-input --> else{input > 2000} --> output[/final price/] --> E
+S((Start)) --> input[/in = purchase amount/]
+input --> 5k{if in >= 5000} -- Yes --> calc1[finalAmount = in *0.8] --> output[/finalAmount = final Price/] --> E((End))
+5k -- No --> 2k{if in >= 2000 && in < 5000} --> calc2[finalAmount = in * 0.9] --> output
+2k -- No --> 0k[finalAmount = in] --> output
+
 ```

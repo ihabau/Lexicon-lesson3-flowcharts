@@ -24,7 +24,7 @@ End
 
 ```mermaid
 graph TD
-A((start)) --> B[/Input password/] --> D{if password == passRec}
+A((start)) --> B[/inPass = Input password/] --> D{if inPass == passRec}
 C{{passRec=12345}} --> D
 D -- Yes --> E[/Access Granted./] --> G((End))
 D -- No --> F[/Access Denied./] --> G

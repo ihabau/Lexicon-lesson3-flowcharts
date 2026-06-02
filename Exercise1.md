@@ -20,11 +20,17 @@ end
 **Flowchart**
 
 ```mermaid
-graph TD
-A((start)) --> B[/Input age/]
-B --> C{if age >= 18}
-C -- Yes --> D[/You are eligible to vote./]
-C -- No --> E[/You are not eligible to vote./]
-E --> F((end))
-D --> F((end))
+  graph TD
+  A((start)) --> B[/age = Input: age/]
+  B --> C{if age >= 18}
+  C -- Yes --> D[/output: You are eligible to vote./]
+  C -- No ---> E[/output: You are not eligible to vote./]
+  E --> F((end))
+  D --> F((end))
+```
+
+```mermaid
+graph LR
+A((start)) ==> B{/if statments/} ==> YES ==> C({} e)
+
 ```
