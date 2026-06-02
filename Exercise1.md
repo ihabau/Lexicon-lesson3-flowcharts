@@ -28,9 +28,3 @@ end
   E --> F((end))
   D --> F((end))
 ```
-
-```mermaid
-graph LR
-A((start)) ==> B{/if statments/} ==> YES ==> C({} e)
-
-```
